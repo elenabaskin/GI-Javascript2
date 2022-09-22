@@ -8,4 +8,9 @@ const jerryWeight = 45;
 const jerryBMI = jerryWeight / (jerryHeight * jerryHeight);
 console.log(jerryBMI);
 
-console.log(tomBMI > jerryBMI);
+// console.log(tomBMI > jerryBMI);
+if (tomBMI > jerryBMI) {
+  console.log(`Tom having a higher BMI is ${tomBMI > jerryBMI} :)!`);
+} else {
+  console.log(`Tom having a higher BMI is ${tomBMI > jerryBMI} :(!`);
+}
